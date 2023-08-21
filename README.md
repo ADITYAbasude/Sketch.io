@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+<center>
+<img src='./client/src/assets/logo/logo.png' width='109px'>
+<p style='font-weight: bold; font-size: 1.5em; font-family: cursive;'>Sketch.io</p>
+</center>
+   
+_ _ _
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### <p>About Sketch.io<p/>
 
-## Available Scripts
+<p>
+Sketch.io is a multiplayer drawing game. It is a clone of the popular game Skribbl.io. It is built using React, Node.js, Express.js and Socket.io.
+</p>
 
-In the project directory, you can run:
+#### How to play
 
-### `npm start`
+To play the game, you have to click on **play** button or you can also create your private room by clicking on **Create Private Room** button to play the game.After that game will appear on the screen and you can share the room link with your friends and ask them to join the room. Once the room is created, the game will start. One player will be selected as the drawer and the other players will be the guessers. The drawer will have to draw the word and the guessers will have to guess the word. The player who guesses the word correctly will get a point. The player with the most points till the end that player will be the winner of the game.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- </div> -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Installation
 
-### `npm test`
+Clone the repository using the following command:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone git@github:ADITYAbasude/Sketch.io.git
+```
 
-### `npm run build`
+To run the project, you will need to have Node.js installed on your system. You can download Node.js from [here](https://nodejs.org/en/download/). After installing Node.js, you will need to install the dependencies. To install the dependencies, open the terminal in the project directory and run the following command:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+cd ./frontend
+npm install
+cd ./backend
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+After installing the dependencies, you will need to start the server. To start the server, run the following command:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+cd ./backend
+npm start
+```
 
-### `npm run eject`
+After starting the server, you will need to start the frontend. To start the frontend, run the following command:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+cd ./frontend
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+After that, open the browser and go to <a href='http://localhost:3000'>http://localhost:3000</a>. You will see the dashboard of the game.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### <p style='font-family: cursive;'>`Screenshots`</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<center>
+<img src='./client/src/assets/screenshots/pic1.png' width='50%'>
+    
+    
+<img src='./client/src/assets/screenshots/pic2.png' width='50%'>
+    
+    
+<img src='./client/src/assets/screenshots/pic3.png' width='50%'>
+    
+    
+<img src='./client/src/assets/screenshots/pic4.png' width='50%'>
+    
+    
+<img src='./client/src/assets/screenshots/pic5.png' width='50%'>
+</center>

@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,700;1,800;1,900;1,1000&display=swap");
+
+:root {
+  --PANEL_BG: #1f212abf;
+  --INPUT_BORDER_COLOR: #707070;
+  --BORDER_RADIUS: 3px;
+  --INPUT_BORDER_COLOR_FOCUS: #2c8de7;
+  --GRID_GAP: 6px;
+  --GAME_PANEL_COLOR: #fff;
+  --COLOR_TOOL_ACTIVE: #ab66eb;
+  --COLOR_CHAT_BG_EVEN: #ececec;
+  --COLOR_PLAYER_BG_EVEN: #ececec;
+  --COLOR_MODAL_BG: #00000080;
+  --COLOR_VOTE_MODAL_PANEL_BG: #1f212abf;
+  --COLOR_VOTE_MODAL_PANEL_RADIUS: 10px;
+  --COLOR_PANEL_BUTTON: #3ebea0;
+  --COLOR_PANEL_BUTTON_HOVER: #20b491;
+  --COLOR_USER_JOIN: #56ce27;
+  --COLOR_USER_DRAWING_MSG: #3975ce;
+  --COLOR_USER_GUESSED_BG: #cfffbd;
+  --COLOR_USER_GUESSED_MSG: #56ce27;
+  --COLOR_USER_LEAVE: #ff0000;
+  --COLOR_USER_VOTE_TO_KICK: #ffb700;
+  font-family: "Inconsolata", monospace;
+  font-family: Nunito, sans-serif;
+}
+
+body {
+  margin: 0;
+}
