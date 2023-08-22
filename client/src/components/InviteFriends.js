@@ -13,7 +13,9 @@ export const InviteFriends = () => {
   });
   return (
     <div className="invite-friends-link">
-      <p ref={url}>http://localhost:3000/?{room}</p>
+      <p ref={url}>
+        https://sketch-io-multiplayer-online-game.onrender.com/?{room}
+      </p>
       <button
         onClick={(e) => {
           e.preventDefault();

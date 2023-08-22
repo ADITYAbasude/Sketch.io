@@ -19,7 +19,7 @@ const Dashboard = () => {
   const { showGame } = useSelector((state) => state.setShowGame);
 
   //endpoint
-  let ENDPOINT = "http://localhost:5000/";
+  let ENDPOINT = "https://sketch-io-multiplayer-online-game.onrender.com/";
   useEffect(() => {
     socketRef.current = io(ENDPOINT, {
       transports: ["websocket"],
