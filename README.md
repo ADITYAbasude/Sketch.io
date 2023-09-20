@@ -28,23 +28,22 @@ git clone git@github:ADITYAbasude/Sketch.io.git
 To run the project, you will need to have Node.js installed on your system. You can download Node.js from [here](https://nodejs.org/en/download/). After installing Node.js, you will need to install the dependencies. To install the dependencies, open the terminal in the project directory and run the following command:
 
 ```bash
-cd ./frontend
+cd ./client
 npm install
-cd ./backend
+cd ../
 npm install
 ```
 
-After installing the dependencies, you will need to start the server. To start the server, run the following command:
+After installing the dependencies, you will need to start the server. To start the server you have to come to the root folder, if you are already in the root folder then run the following command:
 
 ```bash
-cd ./backend
 npm start
 ```
 
 After starting the server, you will need to start the frontend. To start the frontend, run the following command:
 
 ```bash
-cd ./frontend
+cd ./client
 npm start
 ```
 
